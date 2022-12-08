@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		SITE_DIR."/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О нас", 
+		SITE_DIR."/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Курсы", 
+		SITE_DIR."/events/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Классы", 
+		SITE_DIR."/classes/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Учителя", 
+		SITE_DIR."/teachers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Блог", 
+		SITE_DIR."/blog", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		SITE_DIR."/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
