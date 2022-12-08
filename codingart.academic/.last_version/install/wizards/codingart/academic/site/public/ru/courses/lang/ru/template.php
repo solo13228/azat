@@ -1,0 +1,4 @@
+<?
+$MESS["SEARCH_TEXT"] = "ÍÀÉÒÈ ÊÓÐÑ";
+$MESS["SEATCH_BTN"] = "ÏÎÈÑÊ";
+?>

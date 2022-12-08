@@ -1,0 +1,13 @@
+<?
+$MESS["CONTENT_TYPE_NAME"] = "Контент";
+$MESS["CONTENT_ELEMENT_NAME"] = "Элементы";
+$MESS["CONTENT_SECTION_NAME"] = "Разделы";
+
+$MESS["GENERAL_SETTINGS_TYPE_NAME"]  = "Общие настройки";
+$MESS["GENERAL_SETTINGS_ELEMENT_NAME"]  = "Элементы";
+$MESS["GENERAL_SETTINGS_SECTION_NAME"]  = "Разделы";
+
+$MESS["REQUESTS_TYPE_NAME"] = "Заявки";
+$MESS["REQUESTS_ELEMENT_NAME"] = "Элементы";
+$MESS["REQUESTS_SECTION_NAME"] = "Разделы";
+?>

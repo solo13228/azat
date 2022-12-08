@@ -1,0 +1,338 @@
+.admin_panels h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.admin_panels_btn {
+    position: fixed;
+    top: 21%;
+    left: 0px;
+    font-size: 26px;
+    line-height: 1;
+    color: #d3dcdf;
+    padding: 10px;
+    background: #767f8c;
+    cursor: pointer;
+     z-index: 990;
+}
+.admin_panels {
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    background: #d3dcdf;
+    padding: 36px;
+    height: 100%;
+    padding-top: 60px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.1);
+}
+.admin_panels_close {
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    cursor: pointer;
+    background: #d3dcdf;
+    padding: 10px 12px;
+    height: 40px;
+    width: 40px;
+    z-index: 99;
+}
+.admin_panels input {
+    height: 40px;
+   
+    padding: 0px;
+    background: 0px;
+    border: 0px;
+}
+.admin_panels label {
+    font-size: 14px;
+    color: #212121;
+    line-height: 1;
+}
+.admin_panels .radio label {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+    cursor: pointer;
+}
+.admin_panels .radio label.active {
+    box-shadow: 0px 0px 0px 3px #d3dcdf, 0px 0px 4px 4px #cfcfcf;
+}
+.admin_panels .radio label.color_custom {
+    padding: 8px;
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #6767675e;
+}
+.admin_panels .custom_color input[type="color"] {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    height: 34px;
+    width: 35px;
+    background: #d3dcdf;
+}
+.admin_panels .info-box input, 
+.admin_panels .info-box select, 
+.admin_panels .info-box  textarea {
+    font-size: 14px;
+    font-weight: normal;
+    color: #6b6b6b;
+    display: block;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    border: 1px solid #2b2d37;
+    background: #f8f8f8;
+    flex: none;
+    min-width: none;
+}
+.admin_panels .info-box label{
+  display: block;
+
+}
+.admin_panels .info-box input{
+    min-width: 50%;
+    width: auto;
+}
+.admin_panels input:focus,
+.admin_panels .info-box select:focus, 
+.admin_panels .info-box  textarea:focus {
+    border-color: #767f8c;
+}
+.admin_panels .info-box label {
+    padding: 0px;
+}
+.admin_panels .btn-box {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 60px;
+    z-index: 63;
+    margin: 0px !important;  
+}
+.file-load-img {
+    display: none;
+}
+
+.admin_panels .info-box textarea {
+    overflow-y: auto;
+    height: 120px;
+}
+select {
+    overflow-y: auto;
+}
+.admin_panels .btn {
+    font-size: 14px !important;
+    color: #d3dcdf;
+    background: #767f8c !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    width: 100%;
+}
+
+.admin_panels .btn:hover {
+    background: #223a66 !important;
+}
+.admin_panel_btns .btn {
+    background: #d3dcdf !important;
+    text-align: left;
+    padding: 4px 20px;
+    height: auto;
+    font-weight: 500;
+    text-transform: inherit;
+    color: #212121;
+    border: 0px;
+    border-radius: 0px;
+    margin-bottom: 3px;
+}
+.admin_panel_btns .btn:hover, .admin_panel_btns .btn.active{
+    background: #d3dcdf !important;
+    color: #000 !important;
+    border-left: 5px solid #767f8c !important;
+}
+.admin_panels .admin_panel_body{
+    overflow-y: scroll;
+    height: 100vh;
+}
+.admin_panels_btn.active {
+    left: 41.6%;
+    top: 21%;
+    transition: all 1s ease;
+}
+.btn.submit_click.d-none{
+  left: 0;
+}
+.btn.submit_click {
+    position: fixed;
+    top: 27%;
+    left: 41.6%;
+    font-size: 26px;
+    color: #d3dcdf;
+    background: #767f8c;
+    cursor: pointer;
+    z-index: 990;
+    text-transform: unset;
+    font-size: 17px;
+    padding: 14px 35px;
+    line-height: 1;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.1);
+    transition: all 4s ease;
+}
+.admin_panel_btns {
+    background: #f8f8f8;
+    padding: 0px;
+}
+@media (max-width: 768px){
+  .btn.submit_click {
+      left: 66.7%;
+  }
+  .admin_panels_btn.active {
+      left: 66.7%;
+  }
+  .btn.submit_click {
+      left: 66.7%;
+  }
+  .admin_panels_btn.active {
+      left: 66.7%;
+  }
+  .admin_panels .admin_panel_body {
+      height: auto;
+      overflow: auto;
+  }
+  .admin_panels {
+      overflow-y: auto;
+  }
+  .admin_panels .btn-box {
+      position: relative;
+  }
+  .admin_panels .btn-box button {
+      margin: 31px auto;
+      display: block;
+  }
+  .admin_panels_close {
+      position: fixed;
+      left: 88%;
+      top: 52%;
+      background: #0000;
+  }
+} 
+#picker { width: 200px; height: 200px }
+#color_picker_box #slide {
+  width: 30px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+div#color_picker_box {
+  position: relative;
+  width: 230px;
+}
+#box { width: 200px; height: 200px; background: #f00; margin: 20px;}
+#color_picker {
+  position: absolute;
+    width: 243px;
+    height: 212px;
+    left: 13px;
+    z-index: 999;
+    padding: 5px;
+    background: #d3dcdf;
+    /* border: 1px solid #c1c1c1; */
+    
+    box-shadow: -2px -2px 4px 0 rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.box_picker {
+    /*position: relative;*/
+}
+
+.btn_color_pick {
+    border-radius: 50%;
+    margin: 7px;
+    cursor: pointer;
+    background: #ccc;
+    width: 32px;
+    height: 32px;
+    font-size: 15px;
+    line-height: 1;
+    text-align: center;
+    padding: 8px;
+}
+.btn_color_pick.active {
+    box-shadow: 0px 0px 0px 3px #d3dcdf, 0px 0px 4px 4px #cfcfcf;
+}
+#color_picker .close_pick {
+    position: absolute;
+    z-index: 1;
+    right: -20px;
+    top: 2px;
+}
+.edit-box .title {
+    font-size: 15px;
+    color: #262626;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.edit-box {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+}
+.upload-box .btn-upload .btn-upload_two {
+    text-decoration: underline !important;
+    color: #767f8c !important;
+}
+.admin_panel_btns .btn {
+    min-width: 111px;
+}
+.admin_panels_overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 101;
+}
+
+.select-box .select_option {
+    background: #2b2d37;
+    border-radius: 5px;
+    padding: 15px;
+    line-height: 1.5;
+    padding-left: 40px;
+    margin-bottom: 5px;
+    border: 1px solid #2b2d37;
+    cursor: pointer;
+    position: relative;
+    font-size: 14px;
+}
+
+.select-box .select_option:hover,.select-box .select_option.active:hover {
+    border-color: #767f8c;
+    background: #faf8f8;
+}
+
+.select-box .select_option:before, .select-box .select_option.active:before {content: '';background: #d3dcdf;width: 20px;height: 20px;position: absolute;left: 10px; top:30%; border: 1px solid #f8f8f8;border-radius: 50%;}
+
+.select-box .select_option.active:after {content: '';background: #767f8c;width: 14px;height: 14px;position: absolute;left: 13px; top:30%; margin-top: 3px;border: 1px solid #f8f8f8;border-radius: 50%;}
+
+.select-box .select_option:hover:before {
+    border-color: #767f8c;
+}
+
+
+
+
+
+
+
+
+
+

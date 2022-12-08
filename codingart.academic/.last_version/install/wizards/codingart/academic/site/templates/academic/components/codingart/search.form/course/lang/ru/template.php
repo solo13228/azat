@@ -1,0 +1,5 @@
+<?
+$MESS ['BSF_T_SEARCH_BUTTON'] = "Ïîèñê";
+$MESS["SEARCH_TEXT"] = "ÍÀÉÒÈ ÊÓÐÑ";
+$MESS["SEARCH_BTN"] = "ÏÎÈÑÊ";
+?>
