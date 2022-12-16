@@ -1,1 +1,0 @@
-<img alt="О нас" src="/bitrix/templates/juristic2/assets/images/onas.png?>">

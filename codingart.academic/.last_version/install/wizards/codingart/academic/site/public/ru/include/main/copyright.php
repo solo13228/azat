@@ -1,1 +1,0 @@
-<p>Copyright © <a>CodingArt</a> 2022. Все Права Защищены.</p>
